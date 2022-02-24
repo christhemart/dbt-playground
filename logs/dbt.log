@@ -1,0 +1,232 @@
+
+
+============================== 2022-02-24 01:37:37.355481 | 6b812b25-c8db-4203-b887-59550861dbbb ==============================
+01:37:37.355481 [info ] [MainThread]: Running with dbt=1.0.1
+01:37:37.355656 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/chris/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+01:37:37.355779 [debug] [MainThread]: Tracking: tracking
+01:37:37.362366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10609c040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10609c190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10609d1f0>]}
+01:37:37.553146 [debug] [MainThread]: Executing "git --help"
+01:37:37.560214 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+01:37:37.560657 [debug] [MainThread]: STDERR: "b''"
+01:37:37.564463 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+01:37:37.564855 [debug] [MainThread]: Opening a new connection, currently in state init
+01:37:37.565048 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: 'c''
+01:37:37.565408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10734f3a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10734f340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10734f2e0>]}
+01:37:38.347228 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-02-24 01:40:25.034857 | dff11c4c-a5be-4210-ba9f-dac93f9b389e ==============================
+01:40:25.034857 [info ] [MainThread]: Running with dbt=1.0.1
+01:40:25.035163 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/chris/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+01:40:25.035287 [debug] [MainThread]: Tracking: tracking
+01:40:25.041606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10656c790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10656c3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106589130>]}
+01:40:25.223726 [debug] [MainThread]: Executing "git --help"
+01:40:25.234290 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+01:40:25.234595 [debug] [MainThread]: STDERR: "b''"
+01:40:25.237562 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+01:40:25.237939 [debug] [MainThread]: Opening a new connection, currently in state init
+01:40:25.238138 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: 'c''
+01:40:25.238543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10780cb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10780cb80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10780cee0>]}
+01:40:26.014354 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-02-24 01:42:14.857740 | a89a2862-3a2a-4f42-a4df-e5195a024a5a ==============================
+01:42:14.857740 [info ] [MainThread]: Running with dbt=1.0.1
+01:42:14.858048 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/chris/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+01:42:14.858171 [debug] [MainThread]: Tracking: tracking
+01:42:14.864577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10387c700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10387cd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10388cbb0>]}
+01:42:15.050930 [debug] [MainThread]: Executing "git --help"
+01:42:15.057857 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+01:42:15.058387 [debug] [MainThread]: STDERR: "b''"
+01:42:15.062236 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+01:42:15.062798 [debug] [MainThread]: Opening a new connection, currently in state init
+01:42:15.063051 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: 'c''
+01:42:15.063543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b1da60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b1dac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b1d880>]}
+01:42:15.829868 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-02-24 01:44:25.502426 | a0431226-e7ab-4255-ad82-71d37721e8be ==============================
+01:44:25.502426 [info ] [MainThread]: Running with dbt=1.0.1
+01:44:25.502602 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/chris/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+01:44:25.502673 [debug] [MainThread]: Tracking: tracking
+01:44:25.508793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b44610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b447c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b44cd0>]}
+01:44:25.512971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b6d0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b6dac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b6da30>]}
+
+
+============================== 2022-02-24 01:44:54.757720 | 0a7f8313-1480-4988-91d1-1ae4b7bcf0f8 ==============================
+01:44:54.757720 [info ] [MainThread]: Running with dbt=1.0.1
+01:44:54.758081 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/chris/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+01:44:54.758408 [debug] [MainThread]: Tracking: tracking
+01:44:54.765080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104529f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045281f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104528be0>]}
+01:44:54.948483 [debug] [MainThread]: Executing "git --help"
+01:44:54.959482 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+01:44:54.959931 [debug] [MainThread]: STDERR: "b''"
+01:44:54.962998 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+01:44:54.963480 [debug] [MainThread]: Opening a new connection, currently in state init
+01:44:54.965089 [debug] [MainThread]: On debug: select 1 as id
+01:44:56.530741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105795f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105795520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105795c10>]}
+01:44:57.267363 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-02-24 01:54:14.485477 | ba12edac-c23d-4208-a78f-f5b4d672eef0 ==============================
+01:54:14.485477 [info ] [MainThread]: Running with dbt=1.0.1
+01:54:14.486258 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/chris/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, threads=None, select=None, exclude=None, selector_name=None, state=None, defer=None, full_refresh=False, cls=<class 'dbt.task.run.RunTask'>, which='run', rpc_method='run')
+01:54:14.486607 [debug] [MainThread]: Tracking: tracking
+01:54:14.499031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109462490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109462f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109462550>]}
+01:54:14.506460 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+01:54:14.506619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ba12edac-c23d-4208-a78f-f5b4d672eef0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109475b20>]}
+01:54:14.515831 [debug] [MainThread]: Parsing macros/etc.sql
+01:54:14.517007 [debug] [MainThread]: Parsing macros/catalog.sql
+01:54:14.520257 [debug] [MainThread]: Parsing macros/adapters.sql
+01:54:14.531549 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+01:54:14.532717 [debug] [MainThread]: Parsing macros/materializations/view.sql
+01:54:14.533862 [debug] [MainThread]: Parsing macros/materializations/table.sql
+01:54:14.535700 [debug] [MainThread]: Parsing macros/materializations/copy.sql
+01:54:14.536860 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+01:54:14.543793 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+01:54:14.544510 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+01:54:14.546202 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+01:54:14.547210 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+01:54:14.547946 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+01:54:14.555718 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+01:54:14.561192 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+01:54:14.566917 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+01:54:14.568946 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+01:54:14.569734 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+01:54:14.570518 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+01:54:14.572485 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+01:54:14.577787 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+01:54:14.578454 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+01:54:14.583246 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+01:54:14.591202 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+01:54:14.595017 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+01:54:14.596318 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+01:54:14.599811 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+01:54:14.600381 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+01:54:14.601601 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+01:54:14.602599 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+01:54:14.605393 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+01:54:14.613244 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+01:54:14.613893 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+01:54:14.614983 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+01:54:14.615667 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+01:54:14.616059 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+01:54:14.616288 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+01:54:14.616578 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+01:54:14.617174 [debug] [MainThread]: Parsing macros/etc/statement.sql
+01:54:14.619159 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+01:54:14.623066 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+01:54:14.624000 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+01:54:14.625175 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+01:54:14.629505 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+01:54:14.630772 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+01:54:14.632746 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+01:54:14.636035 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+01:54:14.640533 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+01:54:14.732010 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+01:54:14.737651 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+01:54:14.759800 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt-playground.example
+
+01:54:14.762210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ba12edac-c23d-4208-a78f-f5b4d672eef0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10957b910>]}
+01:54:14.764883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ba12edac-c23d-4208-a78f-f5b4d672eef0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10957bfd0>]}
+01:54:14.765009 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 188 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+01:54:14.765630 [info ] [MainThread]: 
+01:54:14.765832 [debug] [MainThread]: Acquiring new bigquery connection "master"
+01:54:14.766224 [debug] [ThreadPool]: Acquiring new bigquery connection "list_playground-dbt"
+01:54:14.766343 [debug] [ThreadPool]: Opening a new connection, currently in state init
+01:54:15.501615 [debug] [ThreadPool]: Acquiring new bigquery connection "create_playground-dbt_dbt_chris"
+01:54:15.502951 [debug] [ThreadPool]: Acquiring new bigquery connection "create_playground-dbt_dbt_chris"
+01:54:15.503211 [debug] [ThreadPool]: BigQuery adapter: Creating schema "playground-dbt.dbt_chris".
+01:54:15.503463 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+01:54:16.270901 [debug] [ThreadPool]: Acquiring new bigquery connection "list_playground-dbt_dbt_chris"
+01:54:16.272025 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+01:54:16.827086 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+01:54:16.828659 [info ] [MainThread]: 
+01:54:16.852017 [debug] [Thread-1  ]: Began running node model.dbt_playground.my_first_dbt_model
+01:54:16.852381 [info ] [Thread-1  ]: 1 of 2 START table model dbt_chris.my_first_dbt_model........................... [RUN]
+01:54:16.852776 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_playground.my_first_dbt_model"
+01:54:16.852896 [debug] [Thread-1  ]: Began compiling node model.dbt_playground.my_first_dbt_model
+01:54:16.853037 [debug] [Thread-1  ]: Compiling model.dbt_playground.my_first_dbt_model
+01:54:16.855579 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_playground.my_first_dbt_model"
+01:54:16.856279 [debug] [Thread-1  ]: finished collecting timing info
+01:54:16.856400 [debug] [Thread-1  ]: Began executing node model.dbt_playground.my_first_dbt_model
+01:54:16.878089 [debug] [Thread-1  ]: Writing runtime SQL for node "model.dbt_playground.my_first_dbt_model"
+01:54:16.878618 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+01:54:16.879450 [debug] [Thread-1  ]: On model.dbt_playground.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "dbt-playground", "target_name": "dev", "node_id": "model.dbt_playground.my_first_dbt_model"} */
+
+
+  create or replace table `playground-dbt`.`dbt_chris`.`my_first_dbt_model`
+  
+  
+  OPTIONS()
+  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+  
+01:54:19.833737 [debug] [Thread-1  ]: finished collecting timing info
+01:54:19.834645 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ba12edac-c23d-4208-a78f-f5b4d672eef0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10956e070>]}
+01:54:19.835104 [info ] [Thread-1  ]: 1 of 2 OK created table model dbt_chris.my_first_dbt_model...................... [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.98s]
+01:54:19.835439 [debug] [Thread-1  ]: Finished running node model.dbt_playground.my_first_dbt_model
+01:54:19.836139 [debug] [Thread-1  ]: Began running node model.dbt_playground.my_second_dbt_model
+01:54:19.836436 [info ] [Thread-1  ]: 2 of 2 START view model dbt_chris.my_second_dbt_model........................... [RUN]
+01:54:19.836890 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_playground.my_second_dbt_model"
+01:54:19.837030 [debug] [Thread-1  ]: Began compiling node model.dbt_playground.my_second_dbt_model
+01:54:19.837183 [debug] [Thread-1  ]: Compiling model.dbt_playground.my_second_dbt_model
+01:54:19.839710 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_playground.my_second_dbt_model"
+01:54:19.840405 [debug] [Thread-1  ]: finished collecting timing info
+01:54:19.840532 [debug] [Thread-1  ]: Began executing node model.dbt_playground.my_second_dbt_model
+01:54:19.855821 [debug] [Thread-1  ]: Writing runtime SQL for node "model.dbt_playground.my_second_dbt_model"
+01:54:19.856159 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+01:54:19.857163 [debug] [Thread-1  ]: On model.dbt_playground.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "dbt-playground", "target_name": "dev", "node_id": "model.dbt_playground.my_second_dbt_model"} */
+
+
+  create or replace view `playground-dbt`.`dbt_chris`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `playground-dbt`.`dbt_chris`.`my_first_dbt_model`
+where id = 1;
+
+
+01:54:20.970216 [debug] [Thread-1  ]: finished collecting timing info
+01:54:20.972336 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ba12edac-c23d-4208-a78f-f5b4d672eef0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10976c5b0>]}
+01:54:20.973033 [info ] [Thread-1  ]: 2 of 2 OK created view model dbt_chris.my_second_dbt_model...................... [[32mOK[0m in 1.14s]
+01:54:20.973479 [debug] [Thread-1  ]: Finished running node model.dbt_playground.my_second_dbt_model
+01:54:20.974575 [debug] [MainThread]: Acquiring new bigquery connection "master"
+01:54:20.974859 [info ] [MainThread]: 
+01:54:20.975018 [info ] [MainThread]: Finished running 1 table model, 1 view model in 6.21s.
+01:54:20.975155 [debug] [MainThread]: Connection 'master' was properly closed.
+01:54:20.975224 [debug] [MainThread]: Connection 'model.dbt_playground.my_second_dbt_model' was properly closed.
+01:54:20.981052 [info ] [MainThread]: 
+01:54:20.981211 [info ] [MainThread]: [32mCompleted successfully[0m
+01:54:20.981350 [info ] [MainThread]: 
+01:54:20.981466 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+01:54:20.981651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095f8cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10957b4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094ce970>]}

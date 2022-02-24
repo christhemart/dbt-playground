@@ -1,0 +1,15 @@
+2022-02-24 01:54:14.751414 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-02-24 01:54:14.752600 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-02-24 01:54:14.753578 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-02-24 01:54:14.754450 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-02-24 01:54:14.764697 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-02-24 01:54:15.506711 (ThreadPoolExecutor-0_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-02-24 01:54:16.275195 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-02-24 01:54:16.276281 (ThreadPoolExecutor-1_0): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2405:6580:2760:6500:78e9:2724:59e:fc94', 51142, 0, 0), raddr=('2404:6800:4004:826::200a', 443, 0, 0)>
+2022-02-24 01:54:16.276694 (ThreadPoolExecutor-1_0): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2405:6580:2760:6500:78e9:2724:59e:fc94', 51143, 0, 0), raddr=('2404:6800:4004:824::200a', 443, 0, 0)>
+2022-02-24 01:54:20.976378 (MainThread): unclosed <ssl.SSLSocket fd=20, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2405:6580:2760:6500:78e9:2724:59e:fc94', 51148, 0, 0), raddr=('2404:6800:4004:826::200a', 443, 0, 0)>
+2022-02-24 01:54:20.976648 (MainThread): unclosed <ssl.SSLSocket fd=21, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2405:6580:2760:6500:78e9:2724:59e:fc94', 51149, 0, 0), raddr=('2404:6800:4004:824::200a', 443, 0, 0)>
+2022-02-24 01:54:20.982639 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2405:6580:2760:6500:78e9:2724:59e:fc94', 51144, 0, 0), raddr=('2404:6800:4004:826::200a', 443, 0, 0)>
+2022-02-24 01:54:20.982810 (MainThread): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2405:6580:2760:6500:78e9:2724:59e:fc94', 51145, 0, 0), raddr=('2404:6800:4004:824::200a', 443, 0, 0)>
+2022-02-24 01:54:20.982912 (MainThread): unclosed <ssl.SSLSocket fd=18, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2405:6580:2760:6500:78e9:2724:59e:fc94', 51146, 0, 0), raddr=('2404:6800:4004:826::200a', 443, 0, 0)>
+2022-02-24 01:54:20.982997 (MainThread): unclosed <ssl.SSLSocket fd=19, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2405:6580:2760:6500:78e9:2724:59e:fc94', 51147, 0, 0), raddr=('2404:6800:4004:824::200a', 443, 0, 0)>
